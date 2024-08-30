@@ -57,10 +57,6 @@ The pipeline includes the training and evaluation of the following machine learn
 Each model's performance is assessed using accuracy, confusion matrix, classification report, and learning curve visualizations.
 You can install these packages using pip:
 
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn tqdm
-
-
 ## How to Use
 
 1. **Download and Prepare Data**: Ensure the `.dat` files are placed in the `RV_Systems_ML_Training_Sets` directory.
@@ -70,5 +66,10 @@ pip install numpy pandas matplotlib seaborn scikit-learn tqdm
 ## Results
 
 Model performance is evaluated based on accuracy, precision, recall, and F1-score. The results are supplemented with confusion matrices and learning curves to provide a comprehensive view of each model's effectiveness.
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn tqdm
+
+
 
 
